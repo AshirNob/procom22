@@ -9,8 +9,8 @@ if ($_SESSION["global_id"] == "") {
 $user_id = (int)$_SESSION["global_id"];
 $board_id = (int)$_GET["bid"];
 $_SESSION["current_board"] = $board_id;
+$hey="this line is being added from web vs code";
 ?>
-
 
 
 <!DOCTYPE html>
